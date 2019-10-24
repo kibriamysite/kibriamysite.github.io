@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Creative Agency Website</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="top-area">
         <div class="container">
             <div class="row">
-                <div class="logo"><img src="images/logo.png" alt="Logo"></div>
-                <nav class="main-nav">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Feature</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </nav>
+                <div class="logo-nav-wrapper">                
+                    <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Feature</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -37,26 +41,26 @@
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, inventore, illum et optio consectetur facilis accusamus repellendus voluptates, iusto aperiam rem quisquam corporis minima! Autem pariatur eveniet itaque iusto totam.</p>
                 </div>
                 <div class="service-item">
-                        <div class="s_icon">
-                            <img src="images/s_icon_two.png" alt="Service Icon">
-                        </div>
-                        <h3>Great Ideas</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, inventore, illum et optio consectetur facilis accusamus repellendus voluptates, iusto aperiam rem quisquam corporis minima! Autem pariatur eveniet itaque iusto totam.</p>
-                </div>
-                <div class="service-item">
-                        <div class="s_icon">
-                            <img src="images/s_icon_three.png" alt="Service Icon">
-                        </div>
-                        <h3>Great Ideas</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, inventore, illum et optio consectetur facilis accusamus repellendus voluptates, iusto aperiam rem quisquam corporis minima! Autem pariatur eveniet itaque iusto totam.</p>
-                </div>
-                <div class="service-item">
-                        <div class="s_icon">
-                            <img src="images/s_icon_four.png" alt="Service Icon">
-                        </div>
-                        <h3>Great Ideas</h3> 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, inventore, illum et optio consectetur facilis accusamus repellendus voluptates, iusto aperiam rem quisquam corporis minima! Autem pariatur eveniet itaque iusto totam.</p>
+                    <div class="s_icon">
+                        <img src="images/s_icon_two.png" alt="Service Icon">
                     </div>
+                    <h3>Great Ideas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, inventore, illum et optio consectetur facilis accusamus repellendus voluptates, iusto aperiam rem quisquam corporis minima! Autem pariatur eveniet itaque iusto totam.</p>
+                </div>
+                <div class="service-item">
+                    <div class="s_icon">
+                        <img src="images/s_icon_three.png" alt="Service Icon">
+                    </div>
+                    <h3>Great Ideas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, inventore, illum et optio consectetur facilis accusamus repellendus voluptates, iusto aperiam rem quisquam corporis minima! Autem pariatur eveniet itaque iusto totam.</p>
+                </div>
+                <div class="service-item">
+                    <div class="s_icon">
+                        <img src="images/s_icon_four.png" alt="Service Icon">
+                    </div>
+                    <h3>Great Ideas</h3> 
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, inventore, illum et optio consectetur facilis accusamus repellendus voluptates, iusto aperiam rem quisquam corporis minima! Autem pariatur eveniet itaque iusto totam.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -149,40 +153,44 @@
         </div>
     </section>
     <section class="contact">
-        <div class="contact-top-content">
-            <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem veniam repellendus dolor natus harum aperiam enim</p>
-        </div>
-        <div class="contact-form">
-            <form action="#">
-                <input type="text" name="name" id="name" placeholder="Name: ">
-                <input type="email" name="email" id="email" placeholder="Email ">
-                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-                <input type="submit" value="Send Message">
-            </form>
-        </div>
-        <div class="contact-info">
-            <p>Phone: 000-0000-00</p>
-            <p>Addpress: Dhaka, Bangladesh.</p>
-            <h5>Customer Support</h5>
-            <p>Phone: 00-000-00</p>
-            <p>www.website.com</p>
-        </div>
-        <footer>
-            <div class="copyright-text">
-                <p>Website copyright text</p>
+        <div class="container">
+            <div class="row">
+                <div class="contact-top-content">
+                    <h2>Contact Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem veniam repellendus dolor natus harum aperiam enim</p>
+                </div>
+                <div class="contact-form">
+                    <form action="#">
+                        <input type="text" name="name" id="name" placeholder="Name: ">
+                        <input type="email" name="email" id="email" placeholder="Email ">
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <p>Phone: 000-0000-00</p>
+                    <p>Addpress: Dhaka, Bangladesh.</p>
+                    <h5>Customer Support</h5>
+                    <p>Phone: 00-000-00</p>
+                    <p>www.website.com</p>
+                </div>
+                <footer>
+                    <div class="copyright-text">
+                        <p>Website copyright text</p>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                    
+                </footer>
             </div>
-            <div class="social-icon">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
-            
-        </footer>
+        </div>        
     </section>
 </body>
 </html>
